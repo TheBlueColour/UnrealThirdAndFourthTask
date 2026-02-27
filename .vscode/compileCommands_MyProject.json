@@ -1,0 +1,58 @@
+[
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyPawn.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyPawn.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyProject.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyProject.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\Source\\MyProject\\MyProject.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Zpawe\\OneDrive\\Documents\\GitHub\\UnrealThirdTask\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]
