@@ -31,12 +31,4 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	//virtual void MoveForward(const FInputActionValue& Value); //setting MoveFoward as in if you have a joystick it checks how far up it is, from -1, till 1
-
-	//virtual void MoveRight(const FInputActionValue& Value); //same thing, left and right
-
 };
