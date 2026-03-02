@@ -33,6 +33,12 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	if (UEnhancedInputComponent* Input = CastChecked<UEnhancedInputComponent>(PlayerInputComponent)){
+
+		Input->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AMyCharacter::MoveForward);
+
+	}
+
 	if(APlayerController* PlayerController = Cast<APlayerController>(Controller)){ //adding input mapping context
 
 		// setting local player subsystem
@@ -53,4 +59,22 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AMyCharacter::NewInput() //this is the input that it calls to do
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, "Pressed Input!!");
+
 }
+
+void AMyCharacter::MoveForward(const FInputActionValue& InputValue){
+
+	FVector2D InputVector = InputValue.Get<FVector2D>();
+
+	if(IsValid(Controller))
+	{
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+		AddMovementInput(ForwardDirection, InputVector.Y);
+		AddMovementInput(RightDirection, InputVector.X);
+	}
+} 

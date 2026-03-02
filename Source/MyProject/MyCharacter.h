@@ -29,12 +29,17 @@ public:
 
 protected:
 
-	UPROPERTY(EditAnywhere, Category =  "Enchanced Input")
+	UPROPERTY(EditAnywhere, Category =  "Enhanced Input")
 	class UInputMappingContext* InputMapping;
 
-	UPROPERTY(EditAnywhere, Category = "Enchanced Input")
+	UPROPERTY(EditAnywhere, Category = "Enhanced Input")
 	class UInputAction* TestAction;
 
+	UPROPERTY(EditAnywhere, Category = "Enhanced Input")
+	class UInputAction* MoveAction;
+
 	void NewInput();
+
+	void MoveForward(const FInputActionValue& InputValue);
 
 };
