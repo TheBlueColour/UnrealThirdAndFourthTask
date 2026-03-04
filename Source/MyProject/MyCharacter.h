@@ -8,7 +8,7 @@
 #include "MyCharacter.generated.h"
 
 UCLASS()
-class MYPROJECT_API AMyCharacter : public ACharacter
+class MYPROJECT_API AMyCharacter : public ACharacter , public IMyInterface3 
 {
 	GENERATED_BODY()
 
@@ -41,5 +41,9 @@ protected:
 	void NewInput();
 
 	void MoveForward(const FInputActionValue& InputValue);
+
+public:
+
+	virtual void TestingInterface_Implementation() override;
 
 };

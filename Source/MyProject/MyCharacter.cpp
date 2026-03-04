@@ -78,3 +78,11 @@ void AMyCharacter::MoveForward(const FInputActionValue& InputValue){
 		AddMovementInput(RightDirection, InputVector.X);
 	}
 } 
+
+void AMyCharacter::TestingInterface_Implementation()
+{
+	if(GEngine){
+
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Black, FString(TEXT("Interface Called!!! :D")));
+	}
+}
