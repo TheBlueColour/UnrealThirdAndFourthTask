@@ -52,7 +52,12 @@ if (result) {
 	}
 ```
 
+Create another actor to give the interface to. Making this Actor into a blueprint version so that it can see the interface element?
+
+
 https://www.youtube.com/watch?v=4IbuUT6Tyj8
 https://www.youtube.com/watch?v=2f17A0DXO4Q
+https://www.youtube.com/watch?v=MJwyZKR-rKo
+https://www.youtube.com/watch?v=06TbHjoKX28
 
 GOOD LUCK GANG

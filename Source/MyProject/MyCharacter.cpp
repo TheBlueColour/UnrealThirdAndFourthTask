@@ -43,10 +43,13 @@ void AMyCharacter::Tick(float DeltaTime)
 	TArray<TEnumAsByte<EObjectTypeQuery>> TraceObjectTypes;
 	TraceObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_WorldStatic));
 
+	//TArray<AActor*> OutActors;
+	//UGameplayStatics::GetAllActorsWithInterface(GetWorld(), UMyInterface3::StaticClass(), &OutActors);
+
 	TArray<AActor*> ignore;
 	ignore.Add(GetOwner());
 
-	bool result = UKismetSystemLibrary::LineTraceSingleForObjects(GetWorld(), Start, End, TraceObjectTypes, false, ignore, EDrawDebugTrace::ForOneFrame, OUT outHit, true);
+	bool result = UKismetSystemLibrary::LineTraceSingleForObjects(GetWorld(), Start, End, TraceObjectsTypes, false, ignore, EDrawDebugTrace::ForOneFrame, OUT outHit, true);
 
 	if (result) {
 		FString f = FString(outHit.GetActor()->GetName());

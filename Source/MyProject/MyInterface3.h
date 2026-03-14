@@ -25,4 +25,6 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Character Helper")
 	void TestingInterface(); 
+
+	//virtual bool Interact() = 0;
 };
