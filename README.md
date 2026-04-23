@@ -1,5 +1,9 @@
 # TASK 3: UnrealThirdTask - Working with Enhanced Input in C++
 
+## Name: Zuzanna Maria Pawelczyk
+
+## Student ID: 2506784
+
 I worked on allowing the player to move left and right within the level, for this in the editor I had to create a C++ class of a pawn as well as a Blueprint class of the InputCharacter pawn so that it is able to recognise changes we made in the C++ class. Additionally in the editor I had to create an Gamemode that will run the Player blueprint with the movement abiltiy, as well as Input mapping context for Unreal to be able to take in input from the player, binding the mapping to 'A' and 'D' to move left and right. As well as a seperate "NewInput" that displays a message upon an 'E' press. 
 
 In the C++ pawn of the .cpp header I had to first call to bind the functionality to input in the "SetUpPlayerInput".
